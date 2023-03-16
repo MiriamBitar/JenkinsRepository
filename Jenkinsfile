@@ -5,7 +5,6 @@ pipeline {
         stage('build') {
             steps {
                 sh 'docker --version'
-                sh 'docker ps'
             }
         }
     }
