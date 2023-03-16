@@ -2,7 +2,7 @@
 pipeline {
     agent { label "built-in" }
     triggers {
-        pollSCM('')
+        pollSCM('H/2 * * * *')
         
         
         
