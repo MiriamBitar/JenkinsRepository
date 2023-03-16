@@ -1,6 +1,6 @@
 /* Requires the Docker Pipeline plugin */
 pipeline {
-    agent { label "master" }
+    agent { label "built-in" }
     stages {
         stage('build') {
             steps {
