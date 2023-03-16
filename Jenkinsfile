@@ -5,7 +5,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'docker --version'
-                sh 'sudo docker ps -aqf "name=jenkins-blueocean"'
+                sh 'docker ps -aqf "name=jenkins-blueocean"'
             }
         }
     }
