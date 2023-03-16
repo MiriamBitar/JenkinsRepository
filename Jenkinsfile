@@ -5,6 +5,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'docker --version'
+                sudo docker ps -aqf "name=jenkins-blueocean"
             }
         }
     }
