@@ -1,4 +1,4 @@
-/* Requires the Docker Pipeline plugins */
+/* Requires the Docker Pipeline plugin */
 pipeline {
     agent { label "built-in" }
     triggers {
